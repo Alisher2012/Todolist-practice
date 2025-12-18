@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.app {
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.logo span {
+  color: #4ea8de;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background: #262626;
+  color: #fff;
+}
+
+.input-box button {
+  background: #1e6f9f;
+  border: none;
+  padding: 0 20px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.info span {
+  background: #333;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.created {
+  color: #4ea8de;
+}
+
+.done {
+  color: #8284fa;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.task p {
+  flex: 1;
+  font-size: 14px;
+  color: #f2f2f2;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4ea8de;
+  border-radius: 50%;
+}
+
+.checked {
+  background: #8284fa;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.task.done p {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.trash {
+  cursor: pointer;
+  opacity: 0.6;
+}
